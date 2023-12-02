@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+  /* src: url("./assets/fonts/materialdesignicons-webfont.eot?v=5.8.55");
+  src: url("./assets/fonts/materialdesignicons-webfont.eot?#iefix&v=5.8.55") format("embedded-opentype"), url("./assets/fonts/materialdesignicons-webfont.woff2?v=5.8.55") format("woff2"), url("./assets/fonts/materialdesignicons-webfont.woff?v=5.8.55") format("woff"), url("./assets/fonts/materialdesignicons-webfont.ttf?v=5.8.55") format("truetype");
+  font-weight: normal;
+  font-style: normal; */
+}
+
+a_font {
+  display: block;
+  color: #212529;
+  font-size: 20px;
+  background-color: transparent !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 62px;
+}
+
+.customDotted {
+  border-bottom: 1px dotted #8492a6;
+}
+
+.customBorder {
+  border-right: 1px solid #F0F0F0;
+}
+
+.customBottomBorder {
+  border-bottom: 1px solid #F0F0F0;
+}
